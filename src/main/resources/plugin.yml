@@ -1,0 +1,13 @@
+name: Echo
+version: 1.0.0
+main: com.enderdevelopment.plugin.Main
+api-version: "1.21"
+commands:
+  echo:
+    description: Manage Echoes and their buffs.
+    usage: /echo <buffs|buff|reload>
+    permission: echo.admin
+permissions:
+  echo.admin:
+    description: Allows managing Echo buff settings.
+    default: op
